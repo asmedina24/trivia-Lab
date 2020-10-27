@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+      <title>Trivia</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="app.js"></script>
+</head>
+<!--  -->
+  <body>
+
+
+  <div id="seleccionesUno">
+    <fieldset id=iniOptions>
+      <legend>FARANDULA</legend>
+      <div id=divTres>
+        <h2>¿Como se llamaban los ladrones de "Mi pobre Angelito"?</h2>
+          <form action="" id="opciones1">
+          <label><input type="radio" id="value1" value="1" name="valoracion">Harry y Marv</label><br>
+          <label><input type="radio" id="value2" value="2" name="valoracion">Molly y Frank</label><br>
+          <label><input type="radio" id="value3" value="3" name="valoracion">Morty y Mark</label><br>
+        </form>
+    </div>
+
+    <div id=divCuatro>
+      <h2>¿Actor principal de la película "No se aceptan devoluciones"?</h2>
+          <form action="" id="opciones2">
+            <label><input type="radio" id="value4" value="1" name="valoracion">Leonardo Di Caprio</label><br>
+            <label><input type="radio" id="value5" value="2" name="valoracion">Eugenio Derbez</label><br>
+            <label><input type="radio" id="value6" value="3" name="valoracion">Antonio Banderas</label><br>
+          </form>
+    </div>
+
+    <div id=divCinco>
+      <h2>¿Qué actor interpretó a Dios en la película Todopoderoso de Jim Carrey?</h2>
+          <form action="" id="opciones3">
+            <label><input type="radio" id="value7" value="1" name="valoracion">Tom Hanks</label><br>
+            <label><input type="radio" id="value8" value="2" name="valoracion">Morgan Freeman</label><br>
+            <label><input type="radio" id="value9" value="3" name="valoracion">George Clooney</label><br><br>
+          </form>
+    </div>
+  </fieldset><br>
+  <br>
+
+      <button id="iniBtn" type="submit" onclick="funcionFarandula()">Siguiente</button>
+
+  </div>
+
+
+  <div id="seleccionesDos" style="display:none">
+    <fieldset id=iniOptions>
+      <legend>FARANDULA</legend>
+      <div id=divTres>
+        <h2>¿Como se llamaban los ladrones de "Mi pobre Angelito"?</h2>
+          <form action="" id="opciones1">
+          <label class="correcta"><input type="radio" id="value1" value="1" name="valoracion">Harry y Marv</label><br>
+          <label><input type="radio" id="value2" value="2" name="valoracion">Molly y Frank</label><br>
+          <label><input type="radio" id="value3" value="3" name="valoracion">Morty y Mark</label><br>
+        </form>
+    </div>
+
+    <div id=divCuatro>
+      <h2>¿Actor principal de la película "No se aceptan devoluciones"?</h2>
+          <form action="" id="opciones2">
+            <label><input type="radio" id="value4" value="1" name="valoracion">Leonardo Di Caprio</label><br>
+            <label class="correcta"><input type="radio" id="value5" value="2" name="valoracion">Eugenio Derbez</label><br>
+            <label><input type="radio" id="value6" value="3" name="valoracion">Antonio Banderas</label><br>
+          </form>
+    </div>
+
+    <div id=divCinco>
+      <h2>¿Qué actor interpretó a Dios en la película Todopoderoso de Jim Carrey?</h2>
+          <form action="" id="opciones3">
+            <label><input type="radio" id="value7" value="1" name="valoracion">Tom Hanks</label><br>
+            <label class="correcta"><input type="radio" id="value8" value="2" name="valoracion">Morgan Freeman</label><br>
+            <label><input type="radio" id="value9" value="3" name="valoracion">George Clooney</label><br><br>
+          </form>
+    </div>
+  </fieldset><br>
+  <br>
+
+      <button id="iniBtn" type="submit" onclick="location.href='index.html'">Reiniciar</button>
+
+  </div>
+
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+      <title>Trivia</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="app.js"></script>
+</head>
+<!--  -->
+  <body>
+
+    <div id=divUno>
+      <h1>Bienvenid@s a la Trivia</h1><br>
+        <form>
+            <input id="userBox" type="text" placeholder="Ingrese usuario" maxlength="20" minlength="3"/>
+        <br><br><br><br>
+        <button id="iniBtn" type="submit" onclick="displayOptions()">COMENZAR</button>
+        </form>
+    </div>
+
+    <div id=divDos style="display:none">
+      <h1 id="player"></h1><br><br>
+      <button type="submit" onclick="location.href='cultura.html'" id="btnCultura">Cultura</button>
+      <button type="submit" onclick="location.href='farandula.html'" id="btnFarandula">Farándula</button>
+    </div>
+
+  </body>
+</html>

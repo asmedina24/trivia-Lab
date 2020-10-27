@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+      <title>Trivia</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="app.js"></script>
+</head>
+<!--  -->
+  <body>
+
+
+  <div id="seleccionesUno">
+    <fieldset id=iniOptions>
+      <legend>CULTURA</legend>
+      <div id=divTres>
+      <h2>¿Cuándo se establece en Chile la Primera Junta Nacional de Gobierno?</h2>
+          <form action="" id="opciones1">
+            <label><input type="radio" id="value1" value="1" name="valoracion1">15 de mayo de 1810</label><br>
+            <label><input type="radio" id="value2" value="2" name="valoracion1">18 de septiembre de 1810</label><br>
+            <label><input type="radio" id="value3" value="3" name="valoracion1">15 de diciembre de 1810</label><br>
+          </form>
+    </div>
+
+    <div id=divCuatro>
+      <h2>¿Cuál es el baile típico de Chile?</h2>
+          <form action="" id="opciones2">
+            <label><input type="radio" id="value4" value="4" name="valoracion2">La Cumbia Chilena</label><br>
+            <label><input type="radio" id="value5" value="5" name="valoracion2">La Cueca</label><br>
+            <label><input type="radio" id="value6" value="6" name="valoracion2">el Tango</label><br>
+          </form>
+    </div>
+
+    <div id=divCinco>
+      <h2>¿Nombre del ave nacional de Chile?</h2>
+          <form action="" id="opciones3">
+            <label><input type="radio" id="value7" value="7" name="valoracion3">Águila</label><br>
+            <label><input type="radio" id="value8" value="8" name="valoracion3">Copíhue</label><br>
+            <label><input type="radio" id="value9" value="9" name="valoracion3">Condor de los Andes</label><br><br>
+          </form>
+    </div>
+  </fieldset><br>
+  <br>
+
+      <button id="iniBtn" type="submit" onclick="funcionCultura()">Siguiente</button>
+
+  </div>
+
+  <div id="seleccionesDos" style="display:none">
+    <fieldset id=iniOptions>
+      <legend>CULTURA</legend>
+      <div id=divTres>
+      <h2>¿Cuándo se establece en Chile la Primera Junta Nacional de Gobierno?</h2>
+          <form action="" id="opciones1">
+            <input type="radio" id="value1" value="1" name="valoracion"><label for= "1">15 de mayo de 1810</label><br>
+            <label class="correcta"><input type="radio" id="value2" value="2" name="valoracion">18 de septiembre de 1810</label><br>
+            <label><input type="radio" id="value3" value="3" name="valoracion">15 de diciembre de 1810</label><br>
+          </form>
+    </div>
+
+    <div id=divCuatro>
+      <h2>¿Cuál es el baile típico de Chile?</h2>
+          <form action="" id="opciones2">
+            <label><input type="radio" id="value4" value="4" name="valoracion">La Cumbia Chilena</label><br>
+            <label class="correcta"><input type="radio" id="value5" value="5" name="valoracion">La Cueca</label><br>
+            <label><input type="radio" id="value6" value="6" name="valoracion">el Tango</label><br>
+          </form>
+    </div>
+
+    <div id=divCinco>
+      <h2>¿Nombre del ave nacional de Chile?</h2>
+          <form action="" id="opciones3">
+            <label><input type="radio" id="value7" value="7" name="valoracion">Águila</label><br>
+            <label><input type="radio" id="value8" value="8" name="valoracion">Copíhue</label><br>
+            <label class="correcta"><input type="radio" id="value9" value="9" name="valoracion">Condor de los Andes</label><br><br>
+          </form>
+    </div>
+  </fieldset><br>
+  <br>
+
+      <button id="iniBtn" type="submit" onclick="location.href='index.html'">Reiniciar</button>
+
+  </div>
+
+  </body>
+</html>
